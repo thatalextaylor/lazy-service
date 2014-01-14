@@ -1,0 +1,14 @@
+{
+  "proxies": [
+    {
+      "name": "echo-server",
+      "clientPort": 1330,
+      "serverPort": 1337,
+      "serverHost": "localhost",
+      "command": "node",
+      "arguments": ["example/echo-server.js"],
+      "testUrl": "http://localhost:1338/"
+    }
+  ],
+  "testRetryFrequency": 1000
+}
